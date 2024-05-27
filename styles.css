@@ -1,0 +1,106 @@
+
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+
+.submit {
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: rgb(231, 231, 231);
+    color: rgb(10, 10, 10);
+    font-family:'Courier New', Courier, monospace
+}
+
+input {
+    padding: 4px;
+    border-radius: 5px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    font-family:'Courier New', Courier, monospace;
+    padding: 10px;
+}
+
+.outputContainer {
+    border: white 10px solid;
+    display: flex;
+    background-color: rgb(238, 238, 238);
+    justify-content: center;
+    max-width: 80%;
+    margin: 0 auto;
+    border-radius: 33px;
+    padding: 10px;
+    
+}
+
+li {
+    padding: 10px;
+    padding-top: 40px;
+    width: 200px;
+    position: relative;
+    right: 8px;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.178);
+    border-radius: 15px;
+    box-shadow:rgb(180, 180, 180) 0px 5px 5px;
+    font-family:'Courier New', Courier, monospace
+
+
+}
+
+
+
+
+.delete {
+
+
+
+    max-height: 50px;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    position: relative;
+    bottom: 25px;
+    border-radius: 5px;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 auto;
+
+}
+
+.mainContainer {
+    margin: 20px;
+}
